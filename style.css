@@ -2,7 +2,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 15px
 }
 #hi{
     background: -webkit-linear-gradient(rgb(255, 174, 0), rgb(218, 134, 0));
@@ -15,15 +21,29 @@ h1{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 4%;
-    
+    margin-left: 5%;
+    padding-bottom: 40px;
     padding-left: 2%;
 }
 .half-width img {
         width: 100%;
+
 }
+
 .link-button{
     text-decoration: none;
     color: white;
-
+    background-image: linear-gradient(rgb(255, 10, 10), rgb(255, 136, 0)
+    );
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+span{
+    font-size: 45px;
+    background: -webkit-linear-gradient(rgb(255, 174, 0), rgb(218, 134, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center 
+}
 }
