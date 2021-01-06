@@ -76,7 +76,26 @@ section{
     clear: both;
 
 }
+.r{
+    height: 100px;
+}
+.lwp{
+    text-align: center;
+}
+.sp{
+    background-image: linear-gradient(rgb(255, 10, 10), rgb(255, 136, 0)
+    );
+    border-radius: 10px;
+    margin-left: 0%;
+}
 .imgsize{
-    width: 25%;
+    width: 30%;
     float: left;
+    padding: left 200px;;
+    text-align: center;
+    margin: 1%;
+    box-shadow: 10px 10px 5px grey;
+}
+.imgsize img{
+    width: 100%;
 }
