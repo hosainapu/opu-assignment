@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-}
+    margin: 0px;}
 h1{
     font-size: 50px;
 }
@@ -41,9 +41,42 @@ h3{
 }
 span{
     font-size: 45px;
-    background: -webkit-linear-gradient(rgb(255, 174, 0), rgb(218, 134, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center 
+    padding: 10px 20px;
+    margin-left: 25% ;
+    margin-top: 10%;
+    margin-bottom: 20%;  
+    color: khaki;
+    background-image: url(img/lwp.png) ;
+    Background-size : contain
 }
+.sec2{
+    padding-top: 200px;
+}
+.sec3{
+    height: 300px;
+}
+.half-width1{
+    vertical-align: middle;
+    text-align: center;
+}
+.box{
+    height: 200px;
+    width: 350px;
+    float: left;
+    margin-left: 20px;
+}
+.box img{
+    width: 100%;
+}
+.textbox{
+    text-align: ;
+}
+section{
+    height: 500px;
+    clear: both;
+
+}
+.imgsize{
+    width: 25%;
+    float: left;
 }
